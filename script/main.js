@@ -239,6 +239,15 @@ const animationTimeline = () => {
         },
         "party"
     )
+    .to(
+        ".hat",
+        1.2,
+        {
+            rotation: -20,
+            ease: "power2.out"
+        },
+        "+=0.5"
+    )    
     .staggerTo(
         ".eight svg",
         1.5, {
