@@ -244,6 +244,7 @@ const animationTimeline = () => {
         1.2,
         {
             rotation: -20,
+            x: -30,
             ease: "power2.out"
         },
         "+=0.5"
